@@ -34,26 +34,26 @@ HTML (Django Admin default templates)
 
 ⚙️ How to Run the Project
 1. Clone the repository
-git clone https://github.com/your-username/your-repository.git
+git clone https://github.com/josimarlourencodev-lab/sgp-django.git
 
-2. Enter the project directory
+3. Enter the project directory
 cd sgp
 
-3. Create and activate a virtual environment (recommended)
+4. Create and activate a virtual environment (recommended)
 python -m venv venv
 source venv/bin/activate  # Linux / Mac
 venv\Scripts\activate     # Windows
 
-4. Install dependencies
+5. Install dependencies
 pip install django
 
-5. Apply database migrations
+6. Apply database migrations
 python manage.py migrate
 
-6. Create a superuser
+7. Create a superuser
 python manage.py createsuperuser
 
-7. Run the development server
+8. Run the development server
 python manage.py runserver
 
 
